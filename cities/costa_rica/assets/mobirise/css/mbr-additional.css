@@ -2008,14 +2008,16 @@ section.lazy-placeholder:after {
   border-radius: 50%;
   border-radius: 0;
 }
-.cid-rF7Z6WJa06 {
-  padding-top: 75px;
-  padding-bottom: 75px;
+.cid-rFJKE5Kqi5 {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rF7Z6WJa06 .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
+.cid-rFJKE5Kqi5 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rFJKE5Kqi5 .btn {
+  margin: 0 0 .5rem 0;
 }
 .cid-rF7LeD2sR8 {
   padding-top: 30px;
