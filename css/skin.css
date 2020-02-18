@@ -2576,6 +2576,15 @@ body,
 .hero-5-2-24 .media-column{ /*MALLORCA*/
 	background-image: url(../images/saturdays/Mallorca-Cartel.png);
 }
+.hero-5-2-25 .media-column{ /*CORDOBA*/
+	background-image: url(../images/cordoba.jpg);
+}
+.hero-5-2-26 .media-column{ /*CORDOBA*/
+	background-image: url(../images/saturdays/Cordoba-Context.jpg);
+}
+.hero-5-2-27 .media-column{ /*CORDOBA*/
+	background-image: url(../images/madrid-sesion2.png);
+}
 
 
 /* @media (max-width:768px){
