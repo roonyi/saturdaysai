@@ -70,8 +70,8 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", "UA-147239476-1");
+      gtag('js', new Date());
+      gtag('config', 'UA-147239476-1');
     </script>
   </head>
 
@@ -126,6 +126,11 @@
                             <li>
                               <a href="https://bit.ly/aifellows" target="_blank"
                                 >Barcelona</a
+                              >
+                            </li>
+                            <li>
+                              <a href="/city-cordoba.html" target="_blank"
+                                >Cordoba</a
                               >
                             </li>
                             <!--<li>
@@ -224,7 +229,6 @@
                                 >Guayaquil</a
                               >
                             </li>
-
                             <li>
                               <a href="hermosillo/index.html">Buenos Aires</a>
                             </li>
@@ -907,18 +911,18 @@
 
         <script>
           !(function(e, i, n, s) {
-            var t = "InfogramEmbeds",
-              d = e.getElementsByTagName("script")[0];
+            var t = 'InfogramEmbeds',
+              d = e.getElementsByTagName('script')[0];
             if (window[t] && window[t].initialized)
               window[t].process && window[t].process();
             else if (!e.getElementById(n)) {
-              var o = e.createElement("script");
+              var o = e.createElement('script');
               (o.async = 1),
                 (o.id = n),
-                (o.src = "https://e.infogram.com/js/dist/embed-loader-min.js"),
+                (o.src = 'https://e.infogram.com/js/dist/embed-loader-min.js'),
                 d.parentNode.insertBefore(o, d);
             }
-          })(document, 0, "infogram-async");
+          })(document, 0, 'infogram-async');
         </script>
         <div
           style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"
@@ -2343,11 +2347,11 @@
       function includeHTML() {
         var z, i, elmnt, file, xhttp;
         /* Loop through a collection of all HTML elements: */
-        z = document.getElementsByTagName("*");
+        z = document.getElementsByTagName('*');
         for (i = 0; i < z.length; i++) {
           elmnt = z[i];
           /*search for elements with a certain atrribute:*/
-          file = elmnt.getAttribute("w3-include-html");
+          file = elmnt.getAttribute('w3-include-html');
           if (file) {
             /* Make an HTTP request using the attribute value as the file name: */
             xhttp = new XMLHttpRequest();
@@ -2357,14 +2361,14 @@
                   elmnt.innerHTML = this.responseText;
                 }
                 if (this.status == 404) {
-                  elmnt.innerHTML = "Page not found.";
+                  elmnt.innerHTML = 'Page not found.';
                 }
                 /* Remove the attribute, and call this function once more: */
-                elmnt.removeAttribute("w3-include-html");
+                elmnt.removeAttribute('w3-include-html');
                 includeHTML();
               }
             };
-            xhttp.open("GET", file, true);
+            xhttp.open('GET', file, true);
             xhttp.send();
             /* Exit the function: */
             return;
