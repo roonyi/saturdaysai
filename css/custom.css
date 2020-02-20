@@ -231,6 +231,13 @@
 }
 
 @media (max-width: 426px) {
+  .hero-5 .media-column,
+  .hero-slider .tms-slide > .media-column {
+    background-size: contain;
+  }
+  .size-5 {
+    font-size: 4rem !important;
+  }
   .padt-0-mobile {
     padding-top: 0px !important;
   }
@@ -246,18 +253,26 @@
   .why-how-section {
     margin-top: 0;
   }
-  .thumbnail > a,
+  #find-your-city .thumbnail > a,
   .thumbnail > span {
     left: 45px;
+  }
+  #fellows .thumbnail > a,
+  .thumbnail > span {
+    left: 0px;
   }
   iframe {
     width: 100%;
   }
 }
 @media (max-width: 321px) {
-  .thumbnail > a,
+  #find-your-city .thumbnail > a,
   .thumbnail > span {
     left: 16px;
+  }
+  #fellows .thumbnail > a,
+  .thumbnail > span {
+    left: 0px;
   }
 }
 
