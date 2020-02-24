@@ -2585,6 +2585,15 @@ body,
 .hero-5-2-27 .media-column{ /*CORDOBA*/
 	background-image: url(../images/madrid-sesion2.png);
 }
+.hero-5-2-28 .media-column{ /*SEVILLA*/
+	background-image: url(../images/Sevilla.jpg);
+}
+.hero-5-2-29 .media-column{ /*SEVILLA*/
+	background-image: url(../images/saturdays/Sevilla-Context.jpg);
+}
+.hero-5-2-30 .media-column{ /*SEVILLA*/
+	background-image: url(../images/saturdays/Sevilla-Cartel.png);
+}
 
 
 /* @media (max-width:768px){
