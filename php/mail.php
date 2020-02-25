@@ -18,6 +18,6 @@ if(mail($recipient, $subject, $formcontent, $mailheader)){
 	$type = "success";
 }
 
-// echo "Email sent, we will contact you shortly.";
+echo "Email sent, we will contact you shortly.";
 }
 ?>
