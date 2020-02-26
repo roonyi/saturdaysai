@@ -2175,6 +2175,77 @@
               </p>
             </div>
           </div>
+          <!-- <div class="row d-flex justify-content-center">
+            <div class="column width-6 ">
+              <div class="contact-form-container">
+                <form
+                  id="contact-form-index"
+                  class="contact-form"
+                  action="php/mail.php"
+                  method="post"
+                  novalidate
+                >
+                  <div class="row">
+                    <div class="column width-12">
+                      <div class="field-wrapper">
+                        <input
+                          type="text"
+                          name="fname"
+                          class="form-fname form-element rounded medium"
+                          placeholder="Full Name*"
+                          tabindex="1"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="column width-6">
+                      <div class="field-wrapper">
+                        <input
+                          type="email"
+                          name="email"
+                          class="form-email form-element rounded medium"
+                          placeholder="Email address*"
+                          tabindex="3"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="column width-6">
+                      <div class="field-wrapper">
+                        <input
+                          type="text"
+                          name="company"
+                          class="form-wesite form-element rounded medium"
+                          placeholder="Company*"
+                          tabindex="4"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="column width-12">
+                      <div class="field-wrapper">
+                        <textarea
+                          name="message"
+                          class="form-message form-element rounded medium"
+                          placeholder="Message*"
+                          tabindex="7"
+                          required
+                        ></textarea>
+                      </div>
+                      <input
+                        name="send"
+                        type="submit"
+                        value="Send Email"
+                        class="form-submit button rounded medium bkg-theme bkg-hover-theme color-white color-hover-white"
+                      />
+                    </div>
+                  </div>
+                </form>
+                <div class="form-response"></div>
+              </div>
+            </div>
+          </div> -->
         </div>
       </section>
     </div>
@@ -2344,6 +2415,20 @@
     <script src="js/jquery.tm.avalanche.js"></script>
     <script src="js/timber.master.min.js"></script>
 
+    <script>
+      $(document).ready(function() {
+        $('#send-email').click(function() {
+          $.ajax({
+            url: 'http://127.0.0.1:5500/php/mail.php',
+            type: 'POST',
+            data: $('#requestForm').serialize(),
+            success: function(response) {
+              alert('Well done!');
+            }
+          });
+        });
+      });
+    </script>
     <script>
       function includeHTML() {
         var z, i, elmnt, file, xhttp;
