@@ -1,1 +1,1 @@
-# for testing
+# Saturdays.ai website (pre-production repo)
