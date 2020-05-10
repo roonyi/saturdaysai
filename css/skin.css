@@ -2594,8 +2594,15 @@ body,
 .hero-5-2-30 .media-column{ /*SEVILLA*/
 	background-image: url(../images/saturdays/Sevilla-Cartel.png);
 }
-
-
+.hero-5-2-31 .media-column{ /*LIMA*/
+	background-image: url(../images/saturdays/Lima.jpg);
+}
+.hero-5-2-32 .media-column{ /*LIMA*/
+	background-image: url(../images/saturdays/logo_lima2.png);
+}
+.hero-5-2-33 .media-column{ /*LIMA*/
+	background-image: url(../images/saturdays/evento_lima.png);
+}
 /* @media (max-width:768px){
 	.hero-5-2-1 .media-column{
 		display: none !important;
